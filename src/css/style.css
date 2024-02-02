@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(60, 60, 60);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.header {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  height: 100px;
+  width: 100%;
+  font-size: 75px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  border-bottom: 5px solid white;
+  font-family: "Times New Roman", Times, serif;
+}
+.appbody {
+  text-align: center;
+}
+.theform {
+  /* background-color: rgb(211, 209, 162); */
+  background-color: rgb(60, 60, 60);
+  height: 100px;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px white;
+}
+
+.textarea {
+  font-size: 40px;
+  border-radius: 20px 0px 0px 20px;
+  border: 2px solid black;
+  border-right: 2px solid black;
+  padding-left: 25px;
+  padding-right: 10px;
+  margin: auto;
+  width: 80%;
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+}
+.textarea:focus {
+  outline: none;
+}
+.btn {
+  font-size: 40px;
+  margin: auto;
+  width: 20%;
+  border-radius: 0px 20px 20px 0px;
+  background-color: rgb(152, 0, 0);
+  border: 2px solid black;
+  border-left: none;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {
+  border: 2px solid black;
+  border-left: none;
+  /* background-color: rgb(95, 158, 1); */
+  background-color: black;
+  color: red;
+  transition: 0.15s;
+}
+.list {
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+}
+.items {
+  background-color: white;
+  height: fit-content;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 100px;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  text-align: left;
+  padding: 10px;
+  padding-left: 40px;
+}
+.delbtn {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  background-color: limegreen;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: -1px;
+  margin-left: 10px;
+}
+.delbtn:hover {
+  background-color: black;
+  color: red;
+  transition: 0.15s;
+}
+.delbtn:active {
+  scale: 0.9;
+}
+.iscomplete {
+  text-decoration: line-through;
+}
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  border-top: 2px solid white;
+}
+.tab {
+  display: inline-block;
+  margin-left: 100px;
+}
+.vertgap {
+  height: 50px;
+}
